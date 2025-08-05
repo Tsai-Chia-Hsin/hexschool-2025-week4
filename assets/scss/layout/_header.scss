@@ -1,3 +1,11 @@
-.header-md-index{
-    
+@media(max-width: 576px){
+    .index-sm-button{
+        background-color: $primary-200;
+        width: 50%;
+    }
+
+    .index-sm-button-2{
+        background-color: $primary-100;
+        width: 50%;
+    }
 }
