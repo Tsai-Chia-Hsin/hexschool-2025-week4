@@ -31,6 +31,7 @@
 }
 
 .banner{
+  width: 100%;
   text-align: center;
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);
   padding: 100px 0;
@@ -53,7 +54,7 @@
   }
 }
 
-@media(max-width: 767px){
+@media(max-width: 866px){
   .banner{
     padding: 64px 0;
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);
