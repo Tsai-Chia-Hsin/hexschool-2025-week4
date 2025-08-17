@@ -59,4 +59,8 @@
 	padding-right: 8px;
 	vertical-align: bottom;
 }
-
+.history-link{
+  text-decoration: underline; /* 產生底線 */
+  text-decoration-color: var($neutral-400); /* 設定底線顏色為紫色 */
+  text-underline-offset: 4px; /* 搭配使用，讓底線不緊貼文字 */
+}

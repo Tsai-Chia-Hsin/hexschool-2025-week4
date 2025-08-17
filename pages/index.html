@@ -9,6 +9,7 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <%- include('./layout/header-index'); -%>
@@ -125,7 +126,7 @@
         <div class="row">
           <!-- 卡片1 -->
           <div class="col-3 col-md-2 mb-md-12">
-            <div class="category">
+            <div class="category" data-aos="fade-up">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true" alt="">
               <div class="category-text">
                 <div class="h3 h6-md mb-8">URBN RUNNER</div>
@@ -135,7 +136,7 @@
           </div>
           <!-- 卡片2 -->
           <div class="col-3 col-md-2 mb-md-12">
-            <div class="category">
+            <div class="category" data-aos="zoom-in" data-aos-delay="100">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product.png?raw=true" alt="">
               <div class="category-text">
                 <div class="h3 h6-md mb-8">STREETMODE</div>
@@ -144,8 +145,8 @@
             </div>
           </div>
           <!-- 卡片3 -->
-          <div class="col-3 col-md-2 ">
-            <div class="category">
+          <div class="col-3 col-md-2">
+            <div class="category" data-aos="zoom-in" data-aos-delay="200">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true" alt="">
               <div class="category-text">
                 <div class="h3 h6-md mb-8">CHUNK DISTRICT</div>
@@ -154,8 +155,8 @@
             </div>
           </div>
           <!-- 卡片4 -->
-          <div class="col-3 col-md-2 ">
-            <div class="category">
+          <div class="col-3 col-md-2">
+            <div class="category" data-aos="zoom-in" data-aos-delay="300">
               <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true" alt="">
               <div class="category-text">
                 <div class="h3 h6-md mb-8">COLLAB ZONE</div>
@@ -232,5 +233,6 @@
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
